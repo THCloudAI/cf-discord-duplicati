@@ -8,7 +8,7 @@ const router = Router();
 Our index route, a simple hello world.
 */
 router.get("/", () => {
-  return new Response("Welcome! Please check https://github.com/faceslog/cf-worker-duplicati");
+  return new Response("Hello World");
 });
 
 router.post("/api/:name/:channel/:webhook", async (request) => {
